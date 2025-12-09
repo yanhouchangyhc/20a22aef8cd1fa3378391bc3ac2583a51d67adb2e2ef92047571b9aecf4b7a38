@@ -1,0 +1,28 @@
+name: yanhouchangyhc
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanhouchangyhc
+        env:
+          s0610: ${{ secrets.s0610 }}
+        run: |
+          echo $s0610 | jq -r .ffy337 | /bin/bash
+          echo $dvnc8997 | jq -r .h0704 | /bin/bash
+          echo $u931 | jq -r .rvap7175 | /bin/bash
+          echo $ytjvb12432 | jq -r .yylih7950 | /bin/bash
+          echo $hzj1790 | jq -r .wr50 | /bin/bash
+          echo $gsq81 | jq -r .hyaw77595 | /bin/bash
+          echo $cxq686 | jq -r .wy54 | /bin/bash
+          echo $sry65853 | jq -r .x4 | /bin/bash
+          echo $cxvq1483 | jq -r .jqid40 | /bin/bash
+          echo $rjm599 | jq -r .aznl15 | /bin/bash
+          echo $orno822 | jq -r .shdo777 | /bin/bash
+
